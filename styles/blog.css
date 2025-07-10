@@ -9,6 +9,7 @@ body {
 header {
     padding: 2rem;
     text-align: center;
+    background: url('Hero-bg.png');
 }
 
 .nav {
