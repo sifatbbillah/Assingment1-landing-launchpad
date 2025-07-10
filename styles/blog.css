@@ -4,18 +4,26 @@ body {
     padding: 0;
     background: #fff;
     color: #000;
+    background-position:cover ;
+  
+
+}
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 header {
     padding: 2rem;
     text-align: center;
-    background: url('Hero-bg.png');
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 2rem;
+    padding: 48px 156px;
 }
 
 .logo {
@@ -32,3 +40,159 @@ header {
     border-radius: 5px;
 }
 
+.hero h1 span {
+    color: #4f46e5;
+}
+
+.video-demo
+ {
+    display: flex;
+    text-align: center;
+    gap:2rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    padding: 4rem 2rem;
+}
+.video-text{
+  color: black;
+  text-align: left;
+ 
+}
+
+
+
+
+.video-text {
+    flex: 1;
+}
+
+.video-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.video-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.btn {
+    padding: 0.7rem 1.5rem;
+    background: #4f46e5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(79, 70, 229, 0.6);
+}
+
+.video-image {
+    flex: 1;
+    text-align: center;
+}
+
+.video-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+    max-width: 300px;
+      margin-top: 1rem;}
+
+
+.stats {
+    display: flex;
+    background-position:cover;
+    justify-content: center;
+    padding: 141px 141px 124px 141px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.stats-box {
+    background-color: #e8eaff;
+    border-radius: 16px;
+    padding: 3rem 2rem;
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.stats-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #111;
+    margin-bottom: 2rem;
+}
+
+.stats-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.stat {
+    flex: 1;
+    min-width: 150px;
+}
+
+.stat-number {
+    font-size: 2rem;
+    color: #4f46e5;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    color: #6b7280;
+}
+
+.focus {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: #f0f0f0;
+}
+
+.focus img {
+    max-width: 90%;
+}
+
+.contact {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background: #eaeaea;
+}
