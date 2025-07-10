@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fff;
+    background:lab(89.16% 0.47 -4.26);
     color: #000;
     background-position:cover ;
   
@@ -48,15 +48,18 @@ header {
  {
     display: flex;
     text-align: center;
-    gap:2rem;
+    gap:10rem;
     justify-content: space-between;
     flex-wrap: wrap;
     
-    padding: 4rem 2rem;
+    padding: 4rem 3rem; 
+    box-shadow: #000;
 }
 .video-text{
-  color: black;
-  text-align: left;
+  color: rgb(11, 10, 10);
+  text-align:left;
+  border-left: rem;
+
  
 }
 
@@ -100,10 +103,10 @@ header {
 .video-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
+    border-radius:8px;
 
     max-width: 300px;
-      margin-top: 1rem;}
+      margin-top: 2rem;}
 
 
 .stats {
@@ -158,6 +161,148 @@ header {
     font-size: 1rem;
     color: #6b7280;
 }
+.testimonials {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #f7f8ff;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #1f1f1f;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.div1{
+  margin-left: 140px;
+  margin-right:140px;
+}
+
+.testimonial-card .stars {
+    height: 20px;
+    margin-bottom: 1rem;
+}
+
+.testimonial-card h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-card p {
+    font-size: 0.95rem;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.reviewer .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.reviewer .name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: block;
+    color: #222;
+}
+
+.reviewer .date {
+    font-size: 0.8rem;
+    color: #888;
+}
+.challange{
+  display:flex;
+  width: auto;
+  height:auto;
+  background:rgba(251, 252, 252, 0.987);
+  text-align: center;
+  
+}
+.conf-banner {
+    text-align: center;
+    margin-left:  300px;
+    margin-bottom: 100px;
+}
+
+.conf-banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.conf-banner p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.conf-btn {
+    padding: 12px 28px;
+    background-color: #281bb9;
+    color: #fcfcfb;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.conf-btn:hover {
+    background-color: #00aacc;
+}
+
+.conf-card {
+    margin-top: 50px;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    display: inline-block;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0,216,255,0.3);
+}
+
+.conf-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.conf-info {
+    margin-top: 20px;
+}
+
+.conf-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.conf-info p {
+    font-size: 1em;
+    color: #ccc;
+}
+
 
 .focus {
     text-align: center;
@@ -169,28 +314,25 @@ header {
     max-width: 90%;
 }
 
-.contact {
-    padding: 3rem 1rem;
-    text-align: center;
-}
 
-.contact form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    max-width: 400px;
-    margin: 0 auto;
-}
+.contact-section {
+    display:flex;
+    padding: 40px;
+    width: auto;
+    height:auto;
+    justify-content: space-between;
 
-.contact input,
-.contact textarea {
-    width: 100%;
-    padding: 0.7rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(217, 236, 240, 0.3);
+    
 }
-
+.sifat{
+  font-size:30px
+  
+}
+.h1{
+  font-size:40px
+}
 footer {
     text-align: center;
     padding: 2rem;
